@@ -186,6 +186,7 @@ Console.WriteLine(num7);
 var bool02 = true;
 Console.WriteLine(bool02);
 
+Console.ReadLine();
 
 
 
