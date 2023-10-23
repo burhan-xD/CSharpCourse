@@ -3,10 +3,6 @@
 // bunu yazan kişi öğrenme aşamasında ve kısıtlı ingilizce bilgisi olduğunda dolayı bazen türkçe, bazen ingilizce terimler, açıklamalar kullanmıştır.
 // Author: burhan-xD
 
-
-
-
-
 Console.Title = "istanbulKodluyor - burhan-xD";
 Console.ForegroundColor = ConsoleColor.Yellow;
 Console.BackgroundColor = ConsoleColor.Blue;
@@ -17,7 +13,6 @@ Console.BackgroundColor = ConsoleColor.Black;
 Console.WriteLine("*************************************");
 Console.WriteLine("");
 Console.ForegroundColor = ConsoleColor.White;
-
 
 Add();
 Add();
@@ -30,7 +25,6 @@ Console.WriteLine(result);
 
 var result02 = Add03(4); // default parametreli method. default değer alan değişken mutlaka en sonda olmalı
 Console.WriteLine(result02);
-
 
 static void Add()
 {
@@ -60,7 +54,6 @@ int num22 = 100;
 var result03 = Add04(ref num11, num22);
 Console.WriteLine(result03);
 Console.WriteLine(num11); // ref olmazsa 20, ref olursa 30
-
 
 static int Add04(ref int num11, int num22)
 {
@@ -104,18 +97,3 @@ class PARAMS
         return nums.Sum();
     }
 }
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
