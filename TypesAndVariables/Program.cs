@@ -3,7 +3,6 @@
 // bunu yazan kişi öğrenme aşamasında ve kısıtlı ingilizce bilgisi olduğunda dolayı bazen türkçe, bazen ingilizce terimler, açıklamalar kullanmıştır.
 // Author: burhan-xD
 
-
 using TypesAndVariables;
 
 Console.Title = "istanbulKodluyor - burhan-xD";
@@ -187,39 +186,3 @@ var bool02 = true;
 Console.WriteLine(bool02);
 
 Console.ReadLine();
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
