@@ -3,7 +3,6 @@
 // bunu yazan kişi öğrenme aşamasında ve kısıtlı ingilizce bilgisi olduğunda dolayı bazen türkçe, bazen ingilizce terimler, açıklamalar kullanmıştır.
 // Author: burhan-xD
 
-
 Console.Title = "istanbulKodluyor - burhan-xD";
 Console.ForegroundColor = ConsoleColor.Yellow;
 Console.BackgroundColor = ConsoleColor.Blue;
@@ -76,7 +75,5 @@ else
 {
     Console.WriteLine("Number is between 0-10");
 }
-
-
 
 Console.ReadLine();
