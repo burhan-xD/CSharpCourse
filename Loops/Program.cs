@@ -56,7 +56,6 @@ foreach (string student in students) // dizinin tüm elemanları tek tek dolaş�
 }
 
 Console.ReadLine();
-
 static void forLoops()
 {
     //çift sayılar geriye doğru
@@ -75,7 +74,6 @@ static void forLoops()
         Console.WriteLine(i);
     }
 }
-
 static void whileLoop()
 {
     // while döngüsü
