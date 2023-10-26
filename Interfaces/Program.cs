@@ -2,11 +2,10 @@
 using Interfaces;
 
 //InterfaceIntro();
+//IsSqlChoose();
 
 
 
-CustomerManager customerManager = new CustomerManager();
-customerManager.Add(new OracleCustomerDal());
 
 static void InterfaceIntro()
 {
@@ -18,6 +17,12 @@ static void InterfaceIntro()
 
     Student student = new Student();
     personManager.Add(new Student { FirstName = "Engin", LastName = "Gürkan" });
+}
+
+static void IsSqlChoose()
+{
+    CustomerManager customerManager = new CustomerManager();
+    customerManager.Add(new OracleCustomerDal());
 }
 
 interface IPerson
