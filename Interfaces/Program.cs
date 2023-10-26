@@ -4,8 +4,19 @@ using Interfaces;
 //InterfaceIntro();
 //IsSqlChoose();
 
+ICustomerDal[] customerDals = new ICustomerDal[3] 
+{
+    new SqlServerCustomerDal(), 
+    new OracleCustomerDal(), 
+    new MySqlCustomerDal()
+};
 
+foreach (var customerDal in customerDals)
+{
+    customerDal.Add();
+}
 
+Console.ReadKey();
 
 static void InterfaceIntro()
 {
